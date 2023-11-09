@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import styles from './Map.module.css'
-import {useSearchParams, useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import {MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents} from "react-leaflet";
 import {useCities} from "../contexts/CitiesContext.jsx";
 import {useGeolocation} from "../hooks/useGeolocation.js";
@@ -60,10 +60,8 @@ function DetectClick(){
     const navigate = useNavigate();
 
     useMapEvents({
-        click: e => {
-            navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`)
-        }
-    })
+        click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
+    });
 }
 
 export default Map;
