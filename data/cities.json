@@ -37,18 +37,6 @@
       "id": 98443197
     },
     {
-      "cityName": "Schluchtern",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2023-11-09T17:51:28.524Z",
-      "notes": "",
-      "position": {
-        "lat": "50.34614514870233",
-        "lng": "9.534458292221963"
-      },
-      "id": 98443200
-    },
-    {
       "cityName": "Tahannawt",
       "country": "Morocco",
       "emoji": "🇲🇦",
@@ -59,6 +47,18 @@
         "lng": "-7.913277350078786"
       },
       "id": 98443203
+    },
+    {
+      "cityName": "Figeac",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-11-09T19:54:32.682Z",
+      "notes": "",
+      "position": {
+        "lat": "44.60641226437362",
+        "lng": "2.0610280085812076"
+      },
+      "id": 98443204
     }
   ]
 }
