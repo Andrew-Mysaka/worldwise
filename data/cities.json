@@ -37,30 +37,6 @@
       "id": 98443197
     },
     {
-      "cityName": "dsdsd",
-      "country": "",
-      "emoji": "",
-      "date": "2023-11-09T16:47:05.250Z",
-      "notes": "",
-      "position": {
-        "lat": "41.09604904550897",
-        "lng": "-7.526126677533408"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Attinghausen",
-      "country": "Switzerland",
-      "emoji": "🇨🇭",
-      "date": "2023-11-09T17:50:57.376Z",
-      "notes": "",
-      "position": {
-        "lat": "46.80799026661534",
-        "lng": "8.51246036366436"
-      },
-      "id": 98443199
-    },
-    {
       "cityName": "Schluchtern",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -71,30 +47,6 @@
         "lng": "9.534458292221963"
       },
       "id": 98443200
-    },
-    {
-      "cityName": "Horselberg-Hainich",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2023-11-09T18:04:05.133Z",
-      "notes": "",
-      "position": {
-        "lat": "51.042072104694526",
-        "lng": "10.542852751848615"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Tiflet",
-      "country": "Morocco",
-      "emoji": "🇲🇦",
-      "date": "2023-11-09T18:06:14.861Z",
-      "notes": "",
-      "position": {
-        "lat": "34.01805345678934",
-        "lng": "-6.417366048164213"
-      },
-      "id": 98443202
     },
     {
       "cityName": "Tahannawt",
