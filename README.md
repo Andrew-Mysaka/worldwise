@@ -1,8 +1,18 @@
-# React + Vite
+# <a href="https://worldwise-andrii-mysaka.netlify.app/" target="_blank">WorldWise</a>
+WorldWise is a React application that allows users to explore cities from around the world. It provides information about various cities, including their locations on a map, details about each city, and the ability to create and delete cities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Project was made with:
+-HTML
+-SCC
+-React
+-React Router
+-Leaflet
+-React Leaflet
+-React DatePicker
+-JSON Server
+-ESLint
+-Vite
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Hero
+<a href="https://worldwise-andrii-mysaka.netlify.app/" target="_blank">
+<img src="./maptyScreenShot.png" style="max-width:100%;"></a>
