@@ -1,6 +1,6 @@
 import {createContext, useCallback, useContext, useEffect, useReducer} from "react";
 
-const BASE_URL = 'http://localhost:8000';
+// const BASE_URL = 'http://localhost:8000';
 
 const CityContext = createContext(null);
 
@@ -62,7 +62,10 @@ function CitiesProvider({children}){
             dispatch({ type: "loading" });
 
             try {
-                const res = await fetch(`${BASE_URL}/cities`);
+                // const res = await fetch(`${BASE_URL}/cities`);
+                const res = await fetch(
+                    `https://worldwise-aebd9-default-rtdb.europe-west1.firebasedatabase.app/data/cities.json`
+                );
                 const data = await res.json();
                 dispatch({ type: "cities/loaded", payload: data });
             }catch{
@@ -81,7 +84,10 @@ function CitiesProvider({children}){
         dispatch({type: "loading"});
 
         try {
-            const res = await fetch(`${BASE_URL}/cities/${id}`);
+            // const res = await fetch(`${BASE_URL}/cities/${id}`);
+            const res = await fetch(
+                `https://worldwise-aebd9-default-rtdb.europe-west1.firebasedatabase.app/data/cities.json`
+            );
             const data = await res.json();
             dispatch({type: "city/loaded", payload: data});
         } catch {
@@ -96,7 +102,10 @@ function CitiesProvider({children}){
         dispatch({ type: "loading" });
 
         try {
-            const res = await fetch(`${BASE_URL}/cities`, {
+            const res = await fetch(
+                // `${BASE_URL}/cities`,
+                `https://worldwise-aebd9-default-rtdb.europe-west1.firebasedatabase.app/data/cities/${newCity.id}.json`,
+                {
                 method: "POST",
                 body: JSON.stringify(newCity),
                 headers: {
@@ -118,7 +127,10 @@ function CitiesProvider({children}){
         dispatch({ type: "loading" });
 
         try {
-            await fetch(`${BASE_URL}/cities/${id}`, {
+            await fetch(
+                // `${BASE_URL}/cities/${id}`,
+                `https://worldwise-aebd9-default-rtdb.europe-west1.firebasedatabase.app/data/cities/${id}.json`,
+                {
                 method: "DELETE",
             });
 
