@@ -15,4 +15,6 @@ WorldWise is a React application that allows users to explore cities from around
 
 # Hero
 <a href="https://worldwise-andrii-mysaka.netlify.app/" target="_blank">
-<img src="./maptyScreenShot.png" style="max-width:100%;"></a>
+<img src="./WorldWise_Screenshot_1.png" style="max-width:100%;">
+<img src="./WorldWise_Screenshot_2.png" style="max-width:100%;">
+</a>
